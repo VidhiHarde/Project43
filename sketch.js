@@ -10,6 +10,10 @@ function setup() {
 
 function draw() {
 background(0);  
+textSize(20);
+fill(255);
+textFont("Imprint MT Shadow");
+text("A 12 Hour Clock Which works 24 Hours :)",50,450);
 //Translating and rotating
 translate(200,200);
 rotate(-90);
